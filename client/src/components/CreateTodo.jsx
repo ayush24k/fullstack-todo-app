@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export default function CreateTodo () {
@@ -19,7 +19,6 @@ export default function CreateTodo () {
         })
             .then( async (res) => {
                 const data = await res.json();
-                alert("todo added")
             })
     }
 

@@ -15,6 +15,6 @@ it has the following features:-
 things yet to add/fix:
 - add mark as complete functionality
 - add update the task functionality
-- fix the infinite requests to db to get todos
+- fix the infinite requests to db to get todos (fixed this issues now its sending 1 req/second :sweat_smile:) 
 
 > will try to add authorization and authenticaion to this application (once i learn and get hang of it :kissing_closed_eyes:)
